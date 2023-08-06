@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservation Table</title>
+     <!-- stylecss -->
+     <link rel="stylesheet" href="css/style.css">
+     <!-- flaticon -->
+     <link rel="shortcut icon" href="img/coffee.png" type="image/x-icon">
+     <!-- fonts -->
+     <link rel="stylesheet" href="css/stylesheet.css">
+     <link rel="stylesheet" href="css/oswald font.css">
+     <!-- icons -->
+     <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<section>
+
+        <nav class="row justify-content-between align-item-center">
+            <div class="time">
+                <i class="fa-solid fa-clock"></i>
+                <span>OPENING HOURS :</span> 08:00 AM - 09:00 PM
+            </div>
+
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <div class="location">
+                <i class="fa-solid fa-map-pin"></i>
+                <span> LOCATION :</span> 55 MAIN STREET, NEW YORK
+            </div>
+        </nav>
+</section>
+
+   <!-- HEADER -->
+   <section class="sticky">
+    <header class="row justify-content-between">
+
+        <div class="logo row">
+            <a href="#"><img src="img/logo.png"></a>
+        </div>
+        <div class="menu row align-item-center">
+            <ul class="row ">
+                <li><span><a href="index.html">HOME</a></span><i class="fa-solid fa-angle-down"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="index.html">COFFEE HOUSE</a></li>
+                            <li><a href="#">RESTAURANT</a></li>
+                        </ul> 
+                    </div>
+                </li>
+                <li><a href="aboutus.html">ABOUT</a> </li>
+
+                <li><a href="menu.html">MENU </a><i class="fa-solid fa-angle-down"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="menu.html">MENU - COFFEE</a></li>
+                            <li><a href="">MENU - RESTAURANT</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li><a href="reservation.html">PAGES </a><i class="fa-solid fa-angle-down"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="reservation.html" >RESERVATION</a></li>
+                            <li><a href="" >HISTORY</a></li>
+                            <li><a href="" >SERVICES</a></li>
+                            <li><a href="" >OUR CHEFS</a></li>
+                            <li><a href="" >GALLERY</a></li>
+                            <li><a href="" >FAQ</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="blog.html">BLOG</a> <i class="fa-solid fa-angle-down"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="blog.html">BLOG GRID</a></li>
+                            <li><a href="">STANDARD</a></li>
+                            <li><a href="">SINGLE</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">SHOP</a> <i class="fa-solid fa-angle-down"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="">PRODUCT</a></li>
+                            <li><a href="">PRODUCT SINGLE</a></li>
+                            <li><a href="">CART</a></li>
+                            <li><a href="">CHECKOUT</a></li>
+                            <li><a href="">MY ACCOUNT</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">CONTACTS</a></li>
+            </ul>
+        </div>
+        <div class="widget row-reverse align-item-center">
+
+            <a href="#" class="button">
+                <span>BOOK A TABLE</span>
+            </a>
+
+            <div class="cart">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+        </div>
+    </header>
+</section>
+
+<!-- SLIDER      -->
+<section>
+    <div class="reservation-slider">
+        <div class="container">
+            <div class="row align-item-center">
+                <div class="slider-content ">
+                    <h2>Reservation</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RESERVATION FORM -->
+<section class="rev" id="table">
+    <div class="container">
+        <div class="row">
+            <div class="reservation-table">
+                <span>BOOKING TABLE</span>
+                <h3>Make Your Reservation</h3>      
+                <form class="row justify-content-between">
+                    <div class="form-box"> <input type="text" placeholder="Full Name"><i
+                            class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="form-box"><input type="email" placeholder="Email"><i class="fa-solid fa-at"></i>
+                    </div>
+                    <div class="form-box"><input type="tel" placeholder="Phone"><i class="fa-solid fa-phone"></i>
+                    </div>      
+                    <div class="form-box"> <select>
+                            <option value="PERSON">Person</option>
+                            <option>1 Person</option>
+                            <option>2 Person</option>
+                            <option>3 Person</option>
+                            <option>4 Person</option>
+                            <option>5 Person</option>
+                            <option>6 or more</option>
+                        </select>
+                    </div>
+                    <div class="form-box">
+                        <input type="text" placeholder="Date"><i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <div class="form-box">
+                        <select>
+                            <option>Time</option>
+                            <option>10:00am</option>
+                            <option>11:00am</option>
+                            <option>12:00pm</option>
+                            <option>01:00pm</option>
+                            <option>02:00pm</option>
+                            <option>03:00pm</option>
+                            <option>04:00pm</option>
+                            <option>05:00pm</option>
+                            <option>06:00pm</option>
+                            <option>07:00pm</option>
+                            <option>08:00pm</option>
+                            <option>09:00pm</option>
+                            <option>10:00pm</option>
+                        </select>
+                    </div>
+                </form>     
+                <div class="rev-button">
+                    <a href="" class="rev-btn"><span>BOOK NOW</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- footer section  -->
+<footer>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="footer-box">
+                <div class="footer-content">
+                    <img src="img/logo.png" alt="">
+                
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus, luctus nec.</p>
+                    <div class="icon row justify-content-between">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>                        
+                </div>
+            </div>    
+            <div class="footer-box">
+                <div class="footer-content">
+                    <h5>Working Hours</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-circle"></i>Sunday - Thursday</li>
+                            <li>08:00 am - 09:00pm</li>
+                            <li><i class="fa-solid fa-circle"></i> Only Friday</li>
+                            <li>03:00 pm - 09:00pm</li>
+                            <li><i class="fa-solid fa-circle"></i>Saturday</li>
+                            <li>Closed</li>
+                        </ul>       
+                </div>
+            </div>    
+            <div class="footer-box">
+                <div class="footer-content">
+                    <h5>Contact Us</h5>
+                    <ul class="loc">
+                        <li><i class="fa-solid fa-location-dot"></i>Location :</li>
+                        <li>55 Main Street, New York</li>
+                        <li><i class="fa-solid fa-envelope-open-text"></i>Email Address :</li>
+                        <li>kaffendev@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i>Phone Number :</li>
+                        <li>+012 (345) 678 99</li>
+                    </ul>                   
+                </div>
+            </div>    
+            <div class="footer-box">
+                <div class="footer-content">
+                    <h5>Follow Instagram</h5>
+                    
+                    <div class="insta row justify-content-between">
+                        <div class="insta-img"><img src="img/inst1.jpeg" alt=""></div>
+                        <div class="insta-img"><img src="img/inst2.jpeg" alt=""></div>
+                        <div class="insta-img"><img src="img/inst3.jpeg" alt=""></div>
+                        <div class="insta-img"><img src="img/inst4.jpeg" alt=""></div>
+                        <div class="insta-img"><img src="img/inst5.jpeg" alt=""></div>
+                        <div class="insta-img"><img src="img/inst6.jpeg" alt=""></div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</footer>
+<section>
+    <div class="container">
+        <div class="copy-right">
+            Copyright © 2022 Kaffen. All Rights Reserved.
+        </div>
+    </div>
+</section>
+    
+</body>
+</html>
